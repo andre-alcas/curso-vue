@@ -5,7 +5,7 @@ new Vue({
     },
     methods:{
         exibirAlerta(){
-            alert("Estu te alertando!")
+            alert("Estou te alertando!")
         },
         setData(event){
             event.target.value

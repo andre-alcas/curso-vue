@@ -21,6 +21,17 @@
 
             }
         },
+        watch:{
+            contador(novo, antigo){
+                //console.log(novo,antigo)
+                setTimeout(() => {
+                    this.contador = 0
+
+                },2000)
+
+            }
+
+        },
         methods:{
             aumentar(){
                 this.contador++

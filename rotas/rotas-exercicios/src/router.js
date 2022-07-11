@@ -4,3 +4,13 @@ import Inicio from './components/inicio/Inicio.vue'
 import Usuario from './components/usuario/Usuario.vue'
 
 Vue.use(Router)
+
+export default new Router({
+    routes:[{
+        path: '/',
+        component: Inicio
+    },{
+        path: '/usuario',
+        component: Usuario
+    }]
+})

@@ -24,5 +24,5 @@ app.component('Button', Button);
 app.component('Card', Card);
 app.component('Panel', Panel);
 
-app.mount('#app')
 
+app.mount('#app')

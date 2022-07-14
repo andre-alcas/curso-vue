@@ -1,0 +1,190 @@
+{
+  "produtos": [
+    {
+      "id": "TFl_VAS",
+      "code": "hhhhh",
+      "name": "hhhh",
+      "description": "hhhhh",
+      "image": "tela1.PNG",
+      "price": 5,
+      "category": {
+        "nome": "Medicamento",
+        "id": "1"
+      },
+      "quantity": 0,
+      "inventoryStatus": {
+        "nome": "Fora de estoque",
+        "id": "3"
+      },
+      "rating": 2
+    },
+    {
+      "id": "QwJ7lfK",
+      "code": "rrrrr",
+      "name": "rrrrr",
+      "description": "rrrrr",
+      "image": "blob:http://localhost:8080/f6eaccd6-d7b0-485a-a5b2-e725d0b2bd50",
+      "price": 5,
+      "category": {
+        "nome": "Medicamento",
+        "id": "1"
+      },
+      "quantity": 5,
+      "inventoryStatus": {
+        "nome": "No estoque",
+        "id": "1"
+      },
+      "rating": 3
+    },
+    {
+      "id": "h1T8O3F",
+      "code": "ffffff",
+      "name": "ffffff",
+      "description": "fffff",
+      "image": null,
+      "price": 4,
+      "category": {
+        "nome": "Insumo de Uso Geral",
+        "id": "2"
+      },
+      "quantity": 3,
+      "inventoryStatus": {
+        "nome": "Baixo estoque",
+        "id": "2"
+      },
+      "rating": 3
+    },
+    {
+      "id": "uA7vkFY",
+      "code": "ggggg",
+      "name": "ggggg",
+      "description": "ggggg",
+      "image": null,
+      "price": 6,
+      "category": {
+        "nome": "Insumo de Uso Geral",
+        "id": "2"
+      },
+      "quantity": 5,
+      "inventoryStatus": {
+        "nome": "No estoque",
+        "id": "1"
+      },
+      "rating": 3
+    },
+    {
+      "id": "yIyyaKs",
+      "code": "ddddd",
+      "name": "ddddd",
+      "description": "ddddd",
+      "image": "blob:http://localhost:8080/9a3f3d79-6d03-42a4-8af9-d0119c7f2b4f",
+      "price": 5,
+      "category": {
+        "nome": "Insumo de Uso Geral",
+        "id": "2"
+      },
+      "quantity": 3,
+      "inventoryStatus": {
+        "nome": "Baixo estoque",
+        "id": "2"
+      },
+      "rating": 1
+    },
+    {
+      "id": "IjwtmoT",
+      "code": "hhhhhh",
+      "name": "hhhhhh",
+      "description": "hhhhhhh",
+      "image": "blob:http://localhost:8080/551da4f8-68f5-4298-8fb8-10ea4142a8c7",
+      "price": 6,
+      "category": {
+        "nome": "Insumo de Uso Geral",
+        "id": "2"
+      },
+      "quantity": 6,
+      "inventoryStatus": {
+        "nome": "No estoque",
+        "id": "1"
+      },
+      "rating": 4
+    },
+    {
+      "id": "htOwpDB",
+      "code": "iiiii",
+      "name": "iiiii",
+      "description": "iiiii",
+      "image": {
+        "objectURL": "blob:http://localhost:8080/2e78ee1b-ced8-43d5-8ae1-86557f6b1747"
+      },
+      "price": 3,
+      "category": {
+        "nome": "Vacina",
+        "id": "4"
+      },
+      "quantity": 1,
+      "inventoryStatus": {
+        "nome": "Baixo estoque",
+        "id": "2"
+      },
+      "rating": 3
+    },
+    {
+      "id": "qODU1UJ",
+      "code": "kkkkkkk",
+      "name": "kkkkk",
+      "description": "kkkkk",
+      "image": null,
+      "price": 4,
+      "category": {
+        "nome": "Medicamento",
+        "id": "1"
+      },
+      "quantity": 3,
+      "inventoryStatus": {
+        "nome": "Baixo estoque",
+        "id": "2"
+      },
+      "rating": 2
+    },
+    {
+      "id": "cQjhk3C",
+      "code": "aaaaaa",
+      "name": "aaaaa",
+      "description": "aaaaa",
+      "image": {
+        "objectURL": "blob:http://localhost:8080/d79e0f42-c54d-4048-b04f-2cc61b5576d8"
+      },
+      "price": 2,
+      "category": {
+        "nome": "Medicamento",
+        "id": "1"
+      },
+      "quantity": 1,
+      "inventoryStatus": {
+        "nome": "Baixo estoque",
+        "id": "2"
+      },
+      "rating": 2
+    },
+    {
+      "id": "Tj6GQVX",
+      "code": "ggggg",
+      "name": "gggg",
+      "description": "ggggg",
+      "image": {
+        "objectURL": "blob:http://localhost:8080/457072b0-b7ef-408d-9776-9c95482dd6d8"
+      },
+      "price": 3,
+      "category": {
+        "nome": "Material Cirúrgico",
+        "id": "3"
+      },
+      "quantity": 1,
+      "inventoryStatus": {
+        "nome": "Baixo estoque",
+        "id": "2"
+      },
+      "rating": 1
+    }
+  ]
+}

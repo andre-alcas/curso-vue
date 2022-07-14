@@ -150,7 +150,7 @@ export default {
 
       //Alternativa 1
       this.values[this.current] = this.displayValue;
-      console.log(this.values[0], this.values[1]);
+      //console.log(this.values[0], this.values[1]);
       //Alternativa 2
       /*       if(n !== "."){
         const i = this.current

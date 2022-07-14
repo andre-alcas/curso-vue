@@ -1,7 +1,10 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-link to="/calculadora" class="flex align-items-center">
+      <Button>Calculadora</Button>
+    </router-link>
+    <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 

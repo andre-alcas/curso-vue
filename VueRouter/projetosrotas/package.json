@@ -5,14 +5,20 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "api": "json-server --watch db.json"
   },
   "dependencies": {
+    "@vuelidate/core": "^2.0.0-alpha.42",
+    "@vuelidate/validators": "^2.0.0-alpha.30",
+    "axios": "^0.27.2",
     "core-js": "^3.6.5",
+    "json-server": "^0.17.0",
     "primeflex": "^3.2.1",
     "primeicons": "^5.0.0",
     "primevue": "^3.12.6",
     "vue": "^3.0.0",
+    "vue-api-query": "^1.10.0",
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {

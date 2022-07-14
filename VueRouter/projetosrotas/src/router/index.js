@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Calculadora from '../views/Calculadora.vue'
+import FormularioProdutos from '../views/FormularioProdutos.vue'
 
 
 const routes = [
@@ -22,6 +23,11 @@ const routes = [
     path: '/calculadora',
     name: 'calculadora',
     component: Calculadora
+  },
+  {
+    path: '/formulario',
+    name: 'formulario',
+    component: FormularioProdutos
   }
 ]
 

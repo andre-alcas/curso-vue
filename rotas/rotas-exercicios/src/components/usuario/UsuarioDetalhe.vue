@@ -17,6 +17,19 @@
 <script>
 export default {
     /* props: ['id'], */
+    beforeRouteEnter(to, from, next) {
+        console.log('dentro do componente -> usuario detalhe')
+        //componente ainda não foi criado por isso não é possivel acessar suas variaveis, 
+        //mas dá pra acessar conforme abaixo:
+        /* next(vm => {
+            console.log(vm.$route.params.id)
+        }) */
+        const autenticado = true
+        /* autenticado ? next() : next(vm => {
+            console.log(vm.$route.params.id)
+        }) */
+        autenticado ? next() : next(false)
+    }
 }
 </script>
 

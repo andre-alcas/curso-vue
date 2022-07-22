@@ -54,6 +54,7 @@ export default {
 			this.$http('usuarios.json')
 				.then(res => {
 					this.usuarios = res.data
+					console.log(this.usuarios)
 				})
 		}
 	}

@@ -11,16 +11,24 @@
 </template>
 
 <script>
-
+import { mapActions } from 'vuex'
 export default {
     data() {
         return {
             sequencia: 1,
-            quantidade: 1,
-            preco: 9.99,
+        }
+    },
+    computed: {
+        quantidade() {
+            return this.$store.state.parametros.quantidade
+        },
+        preco() {
+            return this.$store.state.parametros.preco
         }
     },
     methods: {
+        //vai gerar metodos aqui dentro com o operador ...(spread)
+        ...mapActions(['adicionarProduto']),
         adicionar() {
             const produto = {
                 id: this.sequencia,
@@ -31,23 +39,27 @@ export default {
             this.sequencia++
             // eslint-disable-next-line
             console.log(produto)
+            //this.$store.state.produtos.push(produto)
+            //this.$store.commit('adicionarProduto', produto)
+            this.adicionarProduto(produto)
+            //this.$store.dispatch('adicionarProduto', produto)
         }
     }
 }
 </script>
 
 <style>
-    .loja {
-        display: flex;
-        justify-content: center;
-    }
+.loja {
+    display: flex;
+    justify-content: center;
+}
 
-    .loja > * {
-        margin: 0px 10px;
-    }
+.loja>* {
+    margin: 0px 10px;
+}
 
-    input {
-        font-size: 2rem;
-        width: 90px;
-    }
+input {
+    font-size: 2rem;
+    width: 90px;
+}
 </style>

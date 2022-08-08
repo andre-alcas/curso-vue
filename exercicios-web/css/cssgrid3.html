@@ -47,6 +47,16 @@
 
             header { display: none; }
         }
+        @media(max-width: 300px) {
+            body {
+                grid-template-columns: 1fr;
+                grid-template-rows: 50px 1fr;
+                grid-template-areas: 'navegacao' 'conteudo';
+            }
+
+            header { display: none; }
+            footer { display: none; }
+        }
     </style>
 </head>
 

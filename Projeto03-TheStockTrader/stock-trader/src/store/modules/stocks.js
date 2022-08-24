@@ -21,9 +21,9 @@ export default {
         initStocks({ commit }) {
             commit('setStocks', stocks)
         },
-        randomizeStocks(state) {
+        randomizeStocks({ commit }) {
             commit('randomizeStocks')
-        }
+        },
     },
     getters: {
         stocks(state) {
